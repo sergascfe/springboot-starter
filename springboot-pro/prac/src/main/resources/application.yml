@@ -3,8 +3,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/tlias
-    username: root
-    password: 3053931122a
+    username: 
+    password: 
   #文件上传
   servlet:
     multipart:
@@ -19,8 +19,8 @@ mybatis:
 aliyun:
   oss:
     endpoint: https://oss-cn-beijing.aliyuncs.com
-    accessKeyId: LTAI5tPK93hgUenoSmhB8rvH
-    accessKeySecret: cy9d7YVAlvKnzUfmzMOCpctbI735rT
+    accessKeyId: 
+    accessKeySecret: 
     bucketName: web-startup
 #spring事务管理日志
 logging:
